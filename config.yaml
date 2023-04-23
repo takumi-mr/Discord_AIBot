@@ -1,0 +1,18 @@
+#ChatGPT関連
+OPENAI_ACCESS_KEY : <**OPENAI_ACCESS_KEY**>
+#CHATGPT_ACCESS_TOKEN : <**ACCESS_TOKEN**>
+#Bard関連
+BARD_ACCESS_TOKEN : <**BARD_ACCESS_TOKEN**>
+#Discord-Bot関連
+DISCORD_BOT_TOKEN : <**DISCORD_BOT_TOKEN**>
+#DISCORDのチャンネルとチャンネルID一覧(Botが応答するもののみ)
+CHANNEL_ID_AND_NAME : 
+- 
+  CHANNEL_ID : <**CHANNEL_ID**>
+  CHANNEL_NAME : 'chat-gpt3'
+- 
+  CHANNEL_ID : <**CHANNEL_ID**>
+  CHANNEL_NAME : 'chat-gpt4'
+-
+  CHANNEL_ID : <**CHANNEL_ID**>
+  CHANNEL_NAME : 'bard'

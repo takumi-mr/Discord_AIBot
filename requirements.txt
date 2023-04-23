@@ -1,0 +1,6 @@
+requests
+json
+pyyaml
+discord.py
+revChatGPT
+GoogleBard
