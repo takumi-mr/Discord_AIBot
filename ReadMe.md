@@ -1,4 +1,4 @@
-# DiscordBot with AI-Chat
+# DiscordBot with ChatAI
 * Discordでの投稿に対する各ChatAIの返答を投稿するBot
 
 * BardおよびChatGPT4は順番が回ってくるまで使えない
@@ -32,7 +32,7 @@
 インテントを有効化
 ![INTENT](resource/3.png)
 Botをサーバに追加する
-* URL(add_bot.url)を編集
+* URL(add_bot.url)を編集し、URLを開くことでBotがサーバに追加される  
 client_idのパラメータにアプリIDを入れる  
 必要であればpermissionsの値を変更する  
 必要となる権限に応じたpermissionの値は以下で計算できる
