@@ -1,5 +1,5 @@
 """
-未実装
+BingChatと会話を行うクラス
 """
 import asyncio
 import json
