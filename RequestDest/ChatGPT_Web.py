@@ -27,3 +27,8 @@ class bot:
             ):
                 pass
         return response["message"]
+    
+if __name__ == "__main__":
+    chatbot = bot()
+    while True:    
+        print(chatbot.request(message=input()))

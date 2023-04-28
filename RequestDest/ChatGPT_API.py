@@ -23,3 +23,8 @@ class bot:
         except APIConnectionError as e:
             response = e
         return response
+
+if __name__ == "__main__":
+    chatbot = bot()
+    while True:    
+        print(chatbot.request(message=input()))

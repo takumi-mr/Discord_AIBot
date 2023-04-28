@@ -12,3 +12,8 @@ class bot:
         except KeyError :
             pass
         return response["content"]
+
+if __name__ == "__main__":
+    chatbot = bot()
+    while True:    
+        print(chatbot.request(message=input()))
